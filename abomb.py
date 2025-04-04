@@ -21,9 +21,9 @@ while 1:
 |/_/ \_\|____||___||___/  |_|/_/ \_\|
 +-----------------------------------+    
     Sms: {}           {}by {}t.me/alesta144\n  
-    """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
+    """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTWHITE_EX))
     try:
-        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
+        menu = (input(Fore.LIGHTGREEN_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTBLUE_EX + " Seçim: "))
         if menu == "":
             continue
         menu = int(menu) 
